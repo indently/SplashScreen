@@ -11,6 +11,7 @@
 		7AE2309B2799770600B82894 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE2309A2799770600B82894 /* ContentView.swift */; };
 		7AE2309D2799770800B82894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE2309C2799770800B82894 /* Assets.xcassets */; };
 		7AE230A02799770800B82894 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE2309F2799770800B82894 /* Preview Assets.xcassets */; };
+		7AE230A72799780500B82894 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE230A62799780500B82894 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7AE2309A2799770600B82894 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7AE2309C2799770800B82894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AE2309F2799770800B82894 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7AE230A62799780500B82894 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				7AE230982799770600B82894 /* SplashScreenApp.swift */,
+				7AE230A62799780500B82894 /* SplashScreenView.swift */,
 				7AE2309A2799770600B82894 /* ContentView.swift */,
 				7AE2309C2799770800B82894 /* Assets.xcassets */,
 				7AE2309E2799770800B82894 /* Preview Content */,
@@ -139,6 +142,7 @@
 			files = (
 				7AE2309B2799770600B82894 /* ContentView.swift in Sources */,
 				7AE230992799770600B82894 /* SplashScreenApp.swift in Sources */,
+				7AE230A72799780500B82894 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
