@@ -21,17 +21,15 @@ struct SplashScreenView: View {
                 VStack {
                     Image(systemName: "hare.fill")
                         .font(.system(size: 80))
-                        .scaleEffect(size)
-                        .opacity(opacity)
                         .foregroundColor(.red)
                     Text("Epic App")
                         .font(Font.custom("Baskerville-Bold", size: 26))
                         .foregroundColor(.black.opacity(0.80))
-                        .scaleEffect(size)
-                        .opacity(opacity)
                 }
+                .scaleEffect(size)
+                .opacity(opacity)
                 .onAppear {
-                    withAnimation(.easeIn(duration: 1.5)) {
+                    withAnimation(.easeIn(duration: 1.2)) {
                         self.size = 0.9
                         self.opacity = 1.00
                     }
